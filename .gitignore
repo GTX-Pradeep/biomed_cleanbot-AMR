@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore the massive datasets
+data/
+*.zip
+*.tar.gz
+
+# Ignore local system files
+.DS_Store
+.vscode/
+
