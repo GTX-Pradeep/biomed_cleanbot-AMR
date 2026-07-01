@@ -21,7 +21,7 @@ from ultralytics import YOLO
 
 PROJECT_ROOT = "/home/pradeep/campus_waste_robot"
 WEIGHTS_PATH = os.path.join(
-    PROJECT_ROOT, "runs", "detect", "tricascade_baseline_v1", "weights", "best.pt"
+    PROJECT_ROOT, "runs", "detect", "tricascade_baseline_v1-2", "weights", "best.pt"
 )
 VAL_IMAGES_DIR = os.path.join(PROJECT_ROOT, "data", "images", "val")
 
