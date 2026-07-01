@@ -1,0 +1,11 @@
+# data.yaml
+# YOLOv8 dataset configuration for Campus Waste Robot - TriCascade baseline
+
+path: /home/pradeep/campus_waste_robot/data   # dataset root
+train: images/train                            # train images (relative to 'path')
+val: images/val                                # val images (relative to 'path')
+
+# Classes
+names:
+  0: biodegradable
+  1: non_biodegradable
